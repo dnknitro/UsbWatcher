@@ -42,7 +42,6 @@ public class UsbDeviceUtils
         for (int i = 0; i < 10; i++)
         {
             Thread.Sleep(400);
-            //usbDeviceStatus = GetUsbDeviceStatusPnpUtil();
             usbDeviceStatus = GetUsbDeviceStatus();
             if (usbDeviceStatus == lastUsbDeviceStatus)
             {

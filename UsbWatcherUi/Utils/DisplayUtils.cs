@@ -20,7 +20,7 @@ public class DisplayUtils
             ? DisplayConfig.UsbDeviceStatusConnected_DisplayInputSource!
             : DisplayConfig.UsbDeviceStatusDisconnected_DisplayInputSource!;
 
-        // TODO Vlad Shcherbyna: get current input, and if the same, don't do anything
+        // TODO: get current input, and if the same, don't do anything
 
         var exe = DisplayConfig.ControlMyMonitor_Exe!;
         var exeParams = DisplayConfig.ControlMyMonitor_Params!.Replace("{input}", input);
